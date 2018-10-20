@@ -1,0 +1,29 @@
+@-moz-document url-prefix("https://www.linkedin.com/") {
+  /* Messaging portion */
+  .msg-overlay-bubble-header {
+    background-color: #263238;
+  }
+  .msg-overlay-bubble-header__primary-text {
+    color: #78909c;
+  }
+  .msg-overlay-list-bubble__content {
+    background-color: #263238;
+  }
+  .msg-conversation-card__participant-names {
+    color: #78909c;
+  }
+  .msg-overlay-list-bubble__message-snippet {
+    color: #78909c;
+  }
+  .msg-conversation-card__content {
+    border-bottom: 1px solid #cfd8dc;
+  }
+  /* Changes all icons on page */
+  li-icon[type$="-icon"] {
+    color: #78909c;
+  }
+  /* Header */
+  #extended-nav {
+    background-color: #263238;
+  }
+}
