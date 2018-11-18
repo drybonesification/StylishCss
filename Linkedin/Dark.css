@@ -26,4 +26,30 @@
   #extended-nav {
     background-color: #263238;
   }
+  /*left side*/
+  .left-rail {
+    background-color: #263238;
+  }
+  .profile-rail-card {
+    background-color: #263238;
+    color: #78909c;
+  }
+  .entity-list-item {
+    background-color: #263238;
+  }
+  .feed-shared-navigation-module {
+    background-color: #263238;
+  }
+  .feed-shared-interest-package__section-header {
+    background-color: #263238;
+    border-bottom: 1px solid #cfd8dc;
+  }
+  /* styles a lot of text */
+  .t-black--light {
+    color: #78909c;
+  }
+  /* main background for cards */
+  .neptune-grid {
+    background-color: #263238;
+  }
 }

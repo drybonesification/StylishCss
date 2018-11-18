@@ -1,8 +1,8 @@
 # List of supported websites
 
-1. ~~~Youtube~~~
-2. ~~~facebook~~~
-3. ~~~slack~~~
+1. ~~Youtube~~
+2. ~~facebook~~
+3. ~~slack~~
 
 _note that if scratched out currently planned_
 
