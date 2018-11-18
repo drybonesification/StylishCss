@@ -25,3 +25,5 @@ _note that if scratched out currently planned_
 1. layed out structure for websites
 2. started linkedin Dark theme (only messaging section started)
 3. conected files to github
+4. started linkedin
+5. finished profile & noted css so i can keep track of what modifys what

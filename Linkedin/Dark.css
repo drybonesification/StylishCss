@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://www.linkedin.com/") {
-  /* Messaging portion */
+  /* MESSAGING PORTION */
   .msg-overlay-bubble-header {
     background-color: #263238;
   }
@@ -18,15 +18,22 @@
   .msg-conversation-card__content {
     border-bottom: 1px solid #cfd8dc;
   }
-  /* Changes all icons on page */
+
+  /* ICONS */
   li-icon[type$="-icon"] {
     color: #78909c;
   }
-  /* Header */
+
+  /* HEADER/Nav */
   #extended-nav {
     background-color: #263238;
   }
-  /*left side*/
+  /*Profile popup*/
+  .pv-profile-sticky-header--is-showing {
+    background-color: #727e84;
+  }
+
+  /*LEFT SIDE: Main Page*/
   .left-rail {
     background-color: #263238;
   }
@@ -44,12 +51,69 @@
     background-color: #263238;
     border-bottom: 1px solid #cfd8dc;
   }
-  /* styles a lot of text */
+
+  /* STYLES OF TEXT */
   .t-black--light {
+    color: #4aafba;
+  } /*styles most text ^*/
+  .pv-browsemap-section__member-detail .actor-name-with-distance {
     color: #78909c;
   }
-  /* main background for cards */
+  .pv-browsemap-section__member-detail .browsemap-headline {
+    color: #d3dde3;
+  }
+  /*profile name*/
+  .pv-top-card-section__name {
+    color: #d3dde3;
+  }
+  /*profile title*/
+  .pv-top-card-section__headline {
+    color: #263238;
+  }
+  /*profile summary*/
+  .pv-top-card-section__summary .mt4 {
+    color: #4aafba;
+  }
+  /*profile experience*/
+  .pv-entity__secondary-title {
+    color: #4aafba;
+  }
+
+  /* BACKGROUND FOR MOST CARDS */
   .neptune-grid {
+    background-color: #263238;
+  }
+
+  /* PROFILE */
+  .pv-profile-wrapper--below-nav .profile-view-grid {
+    width: auto;
+    padding-top: 50px;
+    padding-left: 460px;
+  }
+  .pv-profile-wrapper--below-nav .pv-top-card-section {
+    background-color: #737f85;
+  }
+  /*Other cards background */
+  .artdeco-container-card:last-child {
+    background-color: #737f85;
+  }
+  .pv-entity__position-group-pager {
+    background-color: #737f85;
+  }
+  /*Experience vv*/
+  .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled
+    .pv-profile-section
+    .pv-profile-section__card-item-v2 {
+    background-color: #737f85;
+  }
+  .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled
+    .pv-profile-section
+    .pv-profile-section__card-item {
+    background-color: #737f85;
+  }
+
+  /*FOOTER*/
+  .nav-footer--static .nav-footer__container {
     background-color: #263238;
   }
 }
